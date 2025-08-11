@@ -6,94 +6,94 @@ Tool Used: SQLite DB Browser
 
 🔧 SQL Features Implemented:
 
-Extracted, filtered, sorted, and grouped data using:
+✅Extracted, filtered, sorted, and grouped data using:
 
-SELECT
+    SELECT
 
-WHERE
+    WHERE
 
-ORDER BY
+    ORDER BY
 
-GROUP BY
+    GROUP BY
 
-Performed joins to relate records within the same dataset:
+✅Performed joins to relate records within the same dataset:
 
-INNER JOIN (Self-Join)
+    INNER JOIN (Self-Join)
 
-LEFT JOIN (Self-Join)
+    LEFT JOIN (Self-Join)
 
-RIGHT JOIN equivalent in SQLite
+    RIGHT JOIN equivalent in SQLite
 
-Created subqueries for comparative analysis.
+✅Created subqueries for comparative analysis.
 
-Applied aggregate functions:
+✅Applied aggregate functions:
 
-SUM
+    SUM
 
-AVG
+    AVG
 
-COUNT
+    COUNT
 
-Created reusable Views for focused analysis.
+✅Created reusable Views for focused analysis.
 
-Optimized queries with Indexes for better performance.
+✅Optimized queries with Indexes for better performance.
 
 📊 Queries Executed:
 
-Basic Retrieval:
+✅Basic Retrieval:
 
-Displayed first 10 rows for dataset overview.
+    Displayed first 10 rows for dataset overview.
 
-Conditional Retrieval:
+✅Conditional Retrieval:
 
-Selected specific columns where Sales > 100.
+    Selected specific columns where Sales > 100.
 
-Sorted Results:
+✅Sorted Results:
 
-Listed top 20 profitable orders.
+    Listed top 20 profitable orders.
+    
+✅Aggregated Metrics:
 
-Aggregated Metrics:
+    Calculated total sales and profit per product category.
 
-Calculated total sales and profit per product category.
+✅Joins:
 
-Joins:
+    Compared products purchased by the same customer using self-joins.
+  
+✅Subquery Analysis:
 
-Compared products purchased by the same customer using self-joins.
+    Found products whose total sales exceed the average sales.
 
-Subquery Analysis:
+✅Aggregate by Payment Method:
 
-Found products whose total sales exceed the average sales.
+    Summarized sales, average sales, and order count by payment type.
 
-Aggregate by Payment Method:
+✅View Creation:
 
-Summarized sales, average sales, and order count by payment type.
+    Stored high-value orders (Sales > 200) in a view.
 
-View Creation:
+✅Index Optimization:
 
-Stored high-value orders (Sales > 200) in a view.
-
-Index Optimization:
-
-Created index on Product_Category and used it in filtered queries.
+    Created index on Product_Category and used it in filtered queries.
 
 🧩 Analysis Features:
 
-Self-Join Analysis:
+✅Self-Join Analysis:
 
-Identified customers purchasing multiple different products.
+    Identified customers purchasing multiple different products.
 
-Subquery Usage:
+✅ Subquery Usage:
 
-Compared sales of products against dataset-wide averages.
+    Compared sales of products against dataset-wide averages.
 
-Performance Optimization:
+✅Performance Optimization:
 
-Used indexes for faster query execution.
+    Used indexes for faster query execution.
 
 🎯 Key Insights:
 
-Fashion category was retrieved as an example of category-based filtering.
+    Fashion category was retrieved as an example of category-based filtering.
 
-High-value orders were separated for focused analysis.
+    High-value orders were separated for focused analysis.
 
-Index creation helped optimize category-based queries.
+    Index creation helped optimize category-based queries.
